@@ -1,0 +1,12 @@
+VBox安装ubuntu注意点：
+
+磁盘文件格式NTFS（Fat3在安装系统时会包io异常）
+硬盘动态分配
+分区顺序：
+/boot(primary)
+/    (logic)
+/home(logic)
+/swap(logic、use as)
+安装
+重启
+OK

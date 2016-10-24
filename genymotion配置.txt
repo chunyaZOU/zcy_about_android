@@ -1,0 +1,21 @@
+安装：
+
+1.jdk-8u91-windows-x64.exe下载后安装
+2.android-sdk_r24.4.1-windows.zip下载后解压
+3.打开SDK manager.exe下载相关的内容
+4.VirtualBox-4.3.12-93733-Win.exe下载后安装
+5.genymotion-2.6.0-vbox.exe下载后安装（不安装VBox）
+6.下载Genymotion-ARM-Translation.zip
+7.创建genymotion虚拟机后打开，将6下载拖入虚拟机
+
+配置：
+
+1.打开genymotion,登录
+2.然后点击settings，点击ADB，选中Use custom Android SDK tools,找到已经配置好的SDK，选中文件夹。回到genymotion显示Android SDK tools found successfully。关掉此窗口
+3.点击Add，出现Available virtual devices 列表，如果没有出现请将genymotion更新到最新。
+4.选中一个，一路next到下载页面，等待。。。
+5.finish下载完成，可以看到虚拟机出现在列表中
+6.选中一个，点击右边配置按钮，根据电脑相关配置选择合适的虚拟机配置，点击OK
+7.点击start开启，等待。。。开启成功
+
+
